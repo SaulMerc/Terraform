@@ -11,6 +11,8 @@ terraform {
 #Recommend don't leave access and secret key#
 provider "aws" {
   region     = "us-east-1"
+  access_key = ""
+  secret_key = ""
 }
 
 #Create an aws instace#
